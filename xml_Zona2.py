@@ -14,8 +14,6 @@ from qgis.core import (QgsProject,
 from qgis.utils import iface
 
 
-def __init__(iface):
-    iface = iface
 
 dirlist = QFileDialog.getExistingDirectory(None, "Выбрать папку", ".")
 sridob = iface.mapCanvas().mapSettings().destinationCrs().authid()
